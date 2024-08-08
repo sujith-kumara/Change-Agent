@@ -19,7 +19,7 @@ SPECIAL_TOKENS = {
 DATA_PATH_ROOT = '/content/Change-Agent/Multi_change'
 def main(args):
     if args.dataset == 'LEVIR_MCI':
-        input_captions_json = f'{DATA_PATH_ROOT}/Levir-MCI-dataset/LevirCCcaptions.json'
+        input_captions_json = f'{DATA_PATH_ROOT}/LEVIR-MCI-dataset/LevirCCcaptions.json'
         input_image_dir = f'{DATA_PATH_ROOT}\Levir-MCI-dataset\images'
         input_vocab_json = ''
         output_vocab_json = 'vocab.json'
